@@ -7,7 +7,7 @@
 	</update>
   </info>
 
-  <element name="Escaran Leonara" type="Race" source="Escara-Primer" id="ID_ESCARA_RACE_LEONARA">
+  <element name="Escaran Leonara" type="Race" source="Escara Primer" id="ID_ESCARA_RACE_LEONARA">
      <description>
         <p class="flavor">Leonara are the dominant race of the deserts, populating the arid realm
              in large but scattered numbers. They are not necessarily a hostile race but

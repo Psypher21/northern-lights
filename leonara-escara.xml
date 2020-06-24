@@ -75,7 +75,7 @@
        <description>You gain proficiency in Perception checks relying on scent.</description>
     </sheet>
   </element>
-  <<element name="Lion's Strength" type="Racial Trait" source="Escara Primer" id="ID_ESCARA_RACIAL_TRAIT_LIONS_STRENGTH">
+  <element name="Lion's Strength" type="Racial Trait" source="Escara Primer" id="ID_ESCARA_RACIAL_TRAIT_LIONS_STRENGTH">
        <description>
             <p>As a beast-race, you generally have greater strength compared to most other creatures. You gain proficiency in Athletics checks when you are grappling.</p>
        </description>

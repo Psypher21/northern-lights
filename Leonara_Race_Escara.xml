@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+     <name>Leonara</name>
+     <update version="0.1">
+			<file name="leonara-escara.xml" url="" />
+	</update>
+  </info>
+
+  <element name="Leonara-Escara" type="Race" source="Escara-Primer" id="ID_RACE_LEONARA">
+     <description>
+        <p class="flavor">Leonara are the dominant race of the deserts, populating the arid realm
+             in large but scattered numbers. They are not necessarily a hostile race but
+             they are protective of their own and powerful enough as a united nation to resist
+             invasion. They believe in strength, loyalty, and most of all, tradition.</p>
+        <p><strong>LION MEN:</strong> The leonara are a beast-race, and look very much like bipedal lions.
+             Like lions, they have feline features, the males have large manes and paws. Their feet
+             are jointed like a lion's and some are born with a tail, while others without. Their more
+             human characteristics are their opposable thumbs, upright stature, and the basic shape of
+             their chest and waist.</p>
+        <h4>RACE FEATURES</h4>
+        <p class="indent"><strong><em>Ability Score Increase.</em></strong>
+             Your Strength, Dexterity, and Constitution scores all increase by 1.</p>
+        <p class="indent"><strong><em>Age.</em></strong>
+             Leonara reach adulthood by 15, and could live up to 150.</p>
+        <p class="indent"><strong><em>Size.</em></strong>
+             Leonara generally grow 5 to 8 ft tall. Your size is Medium.</p>
+        <p class="indent"><strong><em>Speed.</em></strong>
+             Your base walking speed is 30 ft. You may increase your speed to 40 ft when you drop on all fours.</p>
+        <p class="indent"><strong><em>Languages.</em></strong>
+             You can communicate in both Common and Feline.</p>
+        <p class="indent"><strong><em>Claws.</em></strong>
+             Leonaras bear razor sharp claws they use for fighting. Your unarmed attacks deal 1d4 slashing damage.</p>
+        <p class="indent"><strong><em>Keen Smell.</em></strong>
+             You have advantage on Perception checks relying on scent.</p>
+        <p class="indent"><strong><em>Lion's Strength</em></strong>
+             You have advantage on Athletics checks when grappling.</p>
+        <p class="indent"><strong><em>RACIAL WEAPON.</em></strong>
+             You are proficient with Armguards.</p>
+    </description>
+    <rules>
+       <stat name="strength" value="1" />
+       <stat name="dexterity" value="1" />
+       <stat name="constitution" value="1" />
+       <stat name="innate speed" value="30" bonus="base"/>
+       <grant type="Size" id="ID_SIZE_MEDIUM" />
+       <grant type="Language" id="ID_LANGUAGE_COMMON" />
+       <grant type="Language" id="ID_LANGUAGE_FELINE" />
+    </rules>
+  </element>
+  <element name="Feline Language" type="Language" source="Escara Primer" id="ID_LANGUAGE_FELINE">
+     <description>
+        <p>Both Leonara and Leonim in Escara have developed their own feline language that is unique to their culture.</p>
+     </description>
+     <sheet>
+        <description>You understand the Feline language.</description>
+     </sheet>
+  </element>
+</elements>

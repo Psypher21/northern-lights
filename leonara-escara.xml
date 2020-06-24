@@ -3,8 +3,8 @@
   <info>
      <name>Leonara</name>
      <update version="0.1">
-			<file name="leonara-escara.xml" url="" />
-	</update>
+	<file name="leonara-escara.xml" url="https://github.com/Psypher21/northern-lights/blob/master/Leonara_Race_Escara.xml" />
+     </update>
   </info>
 
   <element name="Leonara-Escara" type="Race" source="Escara-Primer" id="ID_RACE_LEONARA">

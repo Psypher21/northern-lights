@@ -3,11 +3,11 @@
   <info>
      <name>Leonara</name>
      <update version="0.1">
-	<file name="leonara-escara.xml" url="https://github.com/Psypher21/northern-lights/blob/master/Leonara_Race_Escara.xml" />
-     </update>
+		<file name="leonara-escara.xml" url="https://github.com/Psypher21/northern-lights/blob/master/leonara-escara.xml" />
+	</update>
   </info>
 
-  <element name="Leonara-Escara" type="Race" source="Escara-Primer" id="ID_RACE_LEONARA">
+  <element name="Escaran Leonara" type="Race" source="Escara-Primer" id="ID_ESCARA_RACE_LEONARA">
      <description>
         <p class="flavor">Leonara are the dominant race of the deserts, populating the arid realm
              in large but scattered numbers. They are not necessarily a hostile race but
@@ -45,15 +45,42 @@
        <stat name="innate speed" value="30" bonus="base"/>
        <grant type="Size" id="ID_SIZE_MEDIUM" />
        <grant type="Language" id="ID_LANGUAGE_COMMON" />
-       <grant type="Language" id="ID_LANGUAGE_FELINE" />
+       <grant type="Language" id="ID_ESCARA_LANGUAGE_FELINE" />
+       <grant type="Racial Trait" id="ID_ESCARA_RACIAL_TRAIT_LEONARA_CLAWS" />
+       <grant type="Racial Trait" id="ID_ESCARA_RACIAL_TRAIT_KEEN_SMELL" />
+       <grant type="Racial Trait" id="ID_ESCARA_RACIAL_TRAIT_LIONS_STRENGTH" />
     </rules>
   </element>
-  <element name="Feline Language" type="Language" source="Escara Primer" id="ID_LANGUAGE_FELINE">
+  <element name="Feline Language" type="Language" source="Escara Primer" id="ID_ESCARA_LANGUAGE_FELINE">
      <description>
         <p>Both Leonara and Leonim in Escara have developed their own feline language that is unique to their culture.</p>
      </description>
      <sheet>
         <description>You understand the Feline language.</description>
      </sheet>
+  </element>
+  <element name="Leonara Claws" type="Racial Trait" source="Escara Primer" id="ID_ESCARA_RACIAL_TRAIT_LEONARA_CLAWS">
+    <description>
+       <p>You can use your claws as unarmed attacks that deal 1d4 slashing damage.</p>
+    </description>
+    <sheet>
+       <description>You can use your claws as unarmed attacks that deal 1d4 slashing damage.</description>
+    </sheet>
+  </element>
+  <element name="Keen Smell" type="Racial Trait" source="Escara Primer" id="ID_ESCARA_RACIAL_TRAIT_KEEN_SMELL">
+    <description>
+       <p>As a beast-race with a strong sense of smell, identifying scents has become second nature to you. You gain proficiency in Perception checks relying on scent.</p>
+    </description>
+    <sheet>
+       <description>You gain proficiency in Perception checks relying on scent.</description>
+    </sheet>
+  </element>
+  <<element name="Lion's Strength" type="Racial Trait" source="Escara Primer" id="ID_ESCARA_RACIAL_TRAIT_LIONS_STRENGTH">
+       <description>
+            <p>As a beast-race, you generally have greater strength compared to most other creatures. You gain proficiency in Athletics checks when you are grappling.</p>
+       </description>
+       <sheet>
+            <description>You gain proficiency in Athletics checks when you are grappling.</description>
+       </sheet>
   </element>
 </elements>

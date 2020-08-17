@@ -3,7 +3,7 @@
   <info>
     <name>Human</name>
     <update version="0.1">
-      <file name="fenrice-human.xml" url="https://github.com/Psypher21/northern-lights/blob/master/leonara-escara.xml"
+      <file name="Fenrice-Human.xml" url="https://github.com/Psypher21/northern-lights/blob/master/Fenrice-Human.xml"
     </update>
   </info>
   <<element name="Human" type="Race" source="Fenrice Primer" id="ID_FENRICE_RACE_HUMAN">
@@ -11,26 +11,37 @@
           <p class="flavor">Humans are creative and innovative creatures. Always wanting to break barriers and create 
               something out of nothing to advance the world. They are the people you will mostly see within the walls of Arkadia.</p>
           <h4>PATHS IN LIFE</h4>
-          <p></p>
-          <p class="indent"></p>
-          <h4>HEADING</h4>
-          <p></p>
-          <p class="indent"></p>
+          <p>Humans value their paths in life. Whether they become a soldier who fights for the city, a person who is involved
+              in the politics of the city, or a commoner who just wants to live as is. Each contribute their own to maintain the
+              ecological balance of Arkadia.</p>
+          <h4>CREATURES OF CONQUEST</h4>
+          <p><i>"I came, I saw, I conquered."</i> is a quote profusely used said by man. Humans are mostly aligned to take what they
+              can take, and control what they can control.</p>
           <h4>Human Traits</h4>
-          <p></p>
-          <p class="indent"><strong><em>Ability Score Increase.</em></strong> _______</p>
-          <p class="indent"><strong><em>Age.</em></strong> _______</p>
-          <p class="indent"><strong><em>Alignment.</em></strong> _______</p>
-          <p class="indent"><strong><em>Size.</em></strong> _______</p>
-          <p class="indent"><strong><em>Speed.</em></strong> _______</p>
-          <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
-          <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
-          <p class="indent"><strong><em>Languages.</em></strong> _______</p>
+          <p>It's hard to make generalizations about humans, but your human character has these traits.</p>
+          <p class="indent"><strong><em>Adulthood.</em></strong> Humans mature at around 18 and live up to 100 years old.</p>
+          <p class="indent"><strong><em>Size.</em></strong> Humans vary wildly in size and build, from barely 5 feet to well over 6 feet tall.
+              Regardless of your position in that range, your size is Medium.</p>
+          <p class="indent"><strong><em>Walking Speed.</em></strong> Your base walking speed is 30 feet.</p>
+          <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write in Common and one language of your choice.</p>
+          <p class="indent"><strong><em>Quick Learner.</em></strong> Gain one feat of your choice.</p>
+          <p class="indent"><strong><em>Inclination.</em></strong> Humans can be classified into three subgroups: Those who are martially inclined,
+              politically inclined, and the normal citizens.</p>
+          <h6>Human Scaling</h6>
+          <p class="indent"><strong><em>Level 2 - Basic First Aid.</em></strong> As a bonus action, you regain hit points equal to 1d4 + your Constitution modifier.
+              You can only use this once per long rest.</p>
+          <p class="indent"><strong><em>Level 6 - Versatility.</em></strong> You gain proficiency in one skill of your choice.</p>
+          <p class="indent"><strong><em>Level 10 - Ability Score Increase.</em></strong> An ability score of your choice increases by 1.</p>
       </description>
       <sheet display="false" />
       <rules>
-          <grant type="Racial Trait" id="ID____" />
-          <grant type="Racial Trait" id="ID____" />
+          <grant type="Size" id="ID_SIZE_MEDIUM" />
+          <stat name="innate speed" value="30" bonus="base" />
+          <grant type="Language" id="ID_LANGUAGE_COMMON" />
+          <select name="Language(Human)" type="Language" supports="Standard||Exotic" />
+          <select name="Quick Learner" type="Feat" />
+          <select name="Versatility" type="Proficiency" level="6" />
+          <select name="Ability Score Increase" type="Racial Trait" supports="Human Variant" number="1" />
       </rules>
   </element>
 </elements>

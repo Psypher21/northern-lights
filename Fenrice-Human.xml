@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Human</name>
+    <update version="0.1">
+      <file name="fenrice-human.xml" url="https://github.com/Psypher21/northern-lights/blob/master/leonara-escara.xml"
+    </update>
+  </info>
+  <<element name="Human" type="Race" source="Fenrice Primer" id="ID_FENRICE_RACE_HUMAN">
+      <description>
+          <p class="flavor">Humans are creative and innovative creatures. Always wanting to break barriers and create 
+              something out of nothing to advance the world. They are the people you will mostly see within the walls of Arkadia.</p>
+          <h4>PATHS IN LIFE</h4>
+          <p></p>
+          <p class="indent"></p>
+          <h4>HEADING</h4>
+          <p></p>
+          <p class="indent"></p>
+          <h4>Human Traits</h4>
+          <p></p>
+          <p class="indent"><strong><em>Ability Score Increase.</em></strong> _______</p>
+          <p class="indent"><strong><em>Age.</em></strong> _______</p>
+          <p class="indent"><strong><em>Alignment.</em></strong> _______</p>
+          <p class="indent"><strong><em>Size.</em></strong> _______</p>
+          <p class="indent"><strong><em>Speed.</em></strong> _______</p>
+          <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
+          <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
+          <p class="indent"><strong><em>Languages.</em></strong> _______</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+          <grant type="Racial Trait" id="ID____" />
+          <grant type="Racial Trait" id="ID____" />
+      </rules>
+  </element>
+</elements>
